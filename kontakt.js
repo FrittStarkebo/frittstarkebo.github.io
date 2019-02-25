@@ -2,39 +2,39 @@ $(document).ready(function(){
 
 
 $(".v").mouseenter(function(){
-  $("#vinfo").show();
+  $("#vinfo").show(500);
 
 
 });
 });
 
 $(".v").mouseleave(function(){
-  $("#vinfo").hide();
+  $("#vinfo").hide(500);
 
 
 });
 
 
 $(".m").mouseenter(function(){
-  $("#minfo").show();
+  $("#minfo").show(500);
 
 
 });
 
 $(".m").mouseleave(function(){
-  $("#minfo").hide();
+  $("#minfo").hide(500);
 
 
 });
 
 $(".h").mouseenter(function(){
-  $("#hinfo").show();
+  $("#hinfo").show(500);
 
 
 });
 
 $(".h").mouseleave(function(){
-  $("#hinfo").hide();
+  $("#hinfo").hide(500);
 
 
 });
