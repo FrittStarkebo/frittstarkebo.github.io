@@ -8,7 +8,6 @@ html {
 
 body {
   margin-top: 0%;
-
 }
 
 .box {
@@ -63,7 +62,7 @@ li {
   list-style-type: none;
 }
 
-footer{
+footer {
   width: 100%;
   height: 100px;
   color: white;
@@ -75,33 +74,27 @@ footer{
   margin-top: 6%;
   font-size: 20px;
   text-shadow: -2px -2px black;
-
-
-  }
-
 }
 
-#mitt{
+
+#mitt {
   margin-left: 0%;
-
 }
 
-.boxar{
-display: flex;
+.boxar {
+  display: flex;
   margin-top: 5%;
 }
 
-.h{
+.h {
   margin-left: 10%;
   background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
   height: 300px;
   background-position: center;
   width: 400px;
-
-
 }
 
-.m{
+.m {
   background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
   height: 300px;
   width: 400px;
@@ -109,19 +102,19 @@ display: flex;
   margin-left: 10%;
 }
 
-.v{
+.v {
   margin-left: 8%;
   height: 300px;
   width: 400px;
   background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
   background-position: center;
-
 }
-h4{
+
+h4 {
   margin-top: 2.5%;
 }
 
-.uppmaning{
+.uppmaning {
   text-align: center;
   margin-top: 5%;
   color: white;
@@ -129,94 +122,68 @@ h4{
   font-size: 30px;
 }
 
-#vinfo{
+#vinfo {
   display: none;
   color: white;
 }
 
-#minfo{
+#minfo {
   display: none;
   color: white;
 }
 
-
-#hinfo{
+#hinfo {
   display: none;
   color: white;
 }
 
 @media screen and (max-width: 1450px) {
+  html {
+    overflow: scroll;
+  }
 
-
-html{
-  overflow: scroll;
-}
-  nav{
+  nav {
     display: none;
   }
 
-  .nav2{
-  display: block;
-  background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
-
-  }
-
-  ul{
+  .nav2 {
     display: block;
-
-
+    background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
   }
 
-
-@media screen and (max-width: 1100px) {
-
-  html{
-    overflow:scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  nav{
-    display: none;
-  }
-
-  .nav2{
-  display: block;
-  background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
-
-  }
-
-  ul{
+  ul {
     display: block;
-
-
   }
 
-  li{
-    margin-left: 15%;
-    list-style-type: none;
-      margin-left: 0%;
-      margin-top;
-
-
+  @media screen and (max-width: 1100px) {
+    html {
+      overflow: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
+    nav {
+      display: none;
+    }
 
-    a{
+    .nav2 {
+      display: block;
+      background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
+    }
+
+    ul {
+      display: block;
+    }
+
+    li {
+      margin-left: 15%;
+      list-style-type: none;
+      margin-left: 0%;
+    }
+
+    a {
       color: white;
       font-size: 45px;
       text-decoration: none;
       margin-top: 10%;
-
     }
-
-
-    footer{
-
-    }
-
-
-
-
-
-}
