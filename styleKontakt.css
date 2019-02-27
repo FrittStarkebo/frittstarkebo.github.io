@@ -11,6 +11,10 @@ body {
   margin-top: 0%;
 }
 
+.v2{
+  display: none;
+}
+
 .mellanbox{
   display: none;
 }
@@ -264,6 +268,48 @@ display:flex;
 color: white;
 }
 
-.v{
+  .h{
+    margin-right: 2%;
+  }
+
+  .m{
+    margin-right: 2%;
+    margin-left: 0%;
+  }
+
+.v2{
   margin-left: 30%;
+  display: block;
+  height: 300px;
+  width: 400px;
+  background-image: url(https://www.phas.ubc.ca/sites/phas/files/md-slider-image/banner-overlay_90_opacity.png);
+  background-position: center;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 925px) {
+
+.mellanbox{
+  display: none;
+}
+
+.v2{
+  display: none;
+}
+
+.boxar{
+  display: block;
+  margin-left:30%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width:700px) {
+
+.boxar{
+  margin-left: 2%;
+}
+
+
+}
+
 }
