@@ -1,7 +1,8 @@
 html {
   background-image: url(https://wallpaperplay.com/walls/full/8/5/0/171846.jpg);
   font-family: 'Nova Flat', Cursive;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 100%;
   width: 100%;
   background-size: cover;
