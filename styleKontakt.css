@@ -89,6 +89,7 @@ footer {
 .boxar {
   display: flex;
   margin-top: 5%;
+  color: white;
 }
 
 .h {
@@ -127,17 +128,17 @@ h4 {
   font-size: 30px;
 }
 
-#vinfo {
+.vinfo {
   display: none;
   color: white;
 }
 
-#minfo {
+.minfo {
   display: none;
   color: white;
 }
 
-#hinfo {
+.hinfo {
   display: none;
   color: white;
 }
@@ -195,6 +196,7 @@ h4 {
       margin-left: 0%;
       margin-right: 0%;
       margin-top: 10%;
+
     }
 
     html {
@@ -260,4 +262,8 @@ height: auto;
 .mellanbox{
 display:flex;
 color: white;
+}
+
+.v{
+  margin-left: 30%;
 }
