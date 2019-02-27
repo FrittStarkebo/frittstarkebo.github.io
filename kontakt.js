@@ -28,7 +28,7 @@ $(".m").mouseleave(function(){
 });
 
 $(".h").mouseenter(function(){
-  $("#hinfo").show(500);
+  $(".hinfo").show(500);
 
 
 });
