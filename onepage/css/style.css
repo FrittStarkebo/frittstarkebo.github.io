@@ -1,0 +1,81 @@
+
+#slideDown{
+
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+ul {
+  display: flex;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+#bgvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+li {
+  margin-left: 8%;
+  list-style: none;
+  border-right: solid;
+  border-left: solid;
+  border-color: white;
+  border-width: thin;
+  padding: 10px;
+  line-height: 8px;
+  text-align: center;
+
+}
+
+nav {
+  text-decoration: none;
+  width: 40%;
+  left: 30%;
+  position: fixed;
+  background-color: #333;
+  color: white;
+  height: 8%;
+  border-color: gray;
+  border-style: solid;
+  border-width: thin;
+  opacity: 0.8;
+
+}
+
+body {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#sektion1{
+width: 100%;
+height: 1000px;
+
+
+}
+
+h2{
+    position: absolute;
+    color: black;
+    text-shadow: -1px -1px black;
+    font-size: 42px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mid{
+  position: absolute;
+  display: none;
+  margin-top: 10%;
+  left: 42.5%;
+}

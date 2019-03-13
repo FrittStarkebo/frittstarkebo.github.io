@@ -1,5 +1,0 @@
-$("#knapp").click(function() {
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#b").offset().top
-    }, 2000);
-});
